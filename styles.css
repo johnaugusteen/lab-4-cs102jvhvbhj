@@ -1,0 +1,227 @@
+.apple {
+    color: #0d2c03;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 20px;
+
+
+  }
+  * {
+    box-sizing: border-box;
+
+  }
+
+  .column {
+    float: left;
+    width: 18;
+    padding: 10px;
+  }
+
+  .row{
+    background-image:url('back image-search2.jfif');
+    background-size: 100%;
+
+  }
+
+
+
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  .figure {
+    color: #3f829d;
+    text-align: center;
+    font-size: 36px;
+    font-style: oblique;
+  }
+
+  
+  .ani img {
+      position: absolute;
+      animation-name: fade;
+      animation-iteration-count: infinite;
+      animation-duration: 6s;
+      width: 25%;
+    }
+
+    @-webkit-keyframes fade {
+      0% {
+        opacity: 0;
+      }
+
+      20% {
+        opacity: 1;
+      }
+
+      33% {
+        opacity: 1;
+      }
+
+      53% {
+        opacity: 0;
+      }
+
+      100% {
+        opacity: 0;
+      }
+    }
+
+    @keyframes fade {
+      0% {
+        opacity: 0;
+      }
+
+      20% {
+        opacity: 1;
+      }
+
+      33% {
+        opacity: 1;
+      }
+
+      53% {
+        opacity: 0;
+      }
+
+      100% {
+        opacity: 0;
+      }
+    }
+
+    #i1 {
+      background-color: lightblue;
+    }
+
+    #i2 {
+
+      animation-delay: 2s;
+      background-color: pink;
+    }
+
+    #i3 {
+      animation-delay: -2s;
+      background-color: lightgreen;
+    }
+    .image {
+      display: flex;
+      flex-wrap: wrap;
+      padding: 10px;
+      background-image:url('bts background.webp');
+      background-size: 100%;
+
+    }
+
+    .fig2 {
+      color: #871be6;
+      font-size: 20px
+    }
+
+    .align {
+      padding: 10px;
+      width: 25%;
+    }
+    .fig {
+      display: flex;
+      flex-wrap: wrap;
+      padding: 25px;
+      background-image:url('anime background1.jpg');
+      background-size: 100%;
+    }
+
+    .fig1 {
+      color: #1A1040;
+      font-size: 20px;
+    }
+
+    .align1 {
+      padding: 10px;
+      width: 22%;
+    }
+    .image1 {
+      display: flex;
+      flex-wrap: wrap;
+      padding: 10px;
+      background-image:url('gaming background.jpg');
+      background-size: 100%;
+    }
+
+    .fig3 {
+      color: #ff5b00;
+      font-size: 20px;
+
+    }
+
+    .align2 {
+      padding: 10px;
+      width: 22%;
+    }
+    .image2 {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 10px;
+        background-color:black;
+      }
+
+      .fig4 {
+        color: rgb(200, 18, 213);
+        font-size: 20px;
+      }
+
+      .align3 {
+        padding: 10px;
+        width: 30%;
+      }
+      .image3 {
+      display: flex;
+      flex-wrap: wrap;
+      padding: 10px;
+      background-image:url('back image-search3.jpg');
+      background-size:100%
+    }
+
+    .fig5 {
+      color: rgb(0, 255, 55);
+      font-size: 20px;
+    }
+
+    .align4 {
+      padding: 10px;
+      width: 30%;
+    }
+    .image4 {
+      display: flex;
+      flex-wrap: wrap;
+      padding: 10px;
+      background-image:url('back.jpg');
+    }
+
+    .fig6 {
+      color: rgb(251, 0, 75);
+      font-size: 20px;
+    }
+
+    .align5 {
+      padding: 10px;
+      width: 30%;
+    }
+    .image5 {
+      display: flex;
+      flex-wrap: wrap;
+      padding: 10px;
+      background-image:url('back11.jpg');
+    }
+
+    .fig7 {
+      color: rgb(251, 0, 75);
+      font-size: 20px;
+    }
+
+    .align6 {
+      padding: 10px;
+      width: 30%;
+    }
+
+
